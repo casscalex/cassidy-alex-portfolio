@@ -5,3 +5,7 @@
   --light-color: hsl(209, 100%, 92%);
   --font-color-hover: hsl(0, 0%, 40%);
 }
+
+#tsparticles {
+  height: 100vh;
+}

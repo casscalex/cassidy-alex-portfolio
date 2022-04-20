@@ -13,7 +13,7 @@ function createLinks(){
 function NavigationBar() {
   return (
     <div id='home'>
-        <Navbar className='naviagtion_container' expand='lg'>
+        <Navbar className='naviagtion_container' style={{ zIndex: '2', position: 'fixed', top: '0', width: '100%'}} collapseOnSelect expand='lg'>
             <Navbar.Brand style={{ marginLeft: '1rem'}} href="#home">
                 Cassidy Alex
             </Navbar.Brand>  
