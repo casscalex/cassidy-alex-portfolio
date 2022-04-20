@@ -4,6 +4,7 @@ import Particles from 'react-tsparticles';
 import Header from './screens/header/Header';
 import AboutMe from './screens/aboutMe/AboutMe';
 import Technologies from './screens/technologies/Technologies';
+import Portfolio from './screens/portfolio/Portfolio';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <AboutMe />
       <Technologies />
+      <Portfolio />
 
     </div>
   );

@@ -4,7 +4,7 @@ import Typed from 'react-typed'
 
 function header() {
   return (
-    <div className="main-info">
+    <div className="main-info" style={{ margin: 100}}>
         <h1>What Am I?</h1>
         <Typed 
             strings={[
